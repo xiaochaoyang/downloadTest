@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSNumber *num = @1;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)startDownload:(id)sender {

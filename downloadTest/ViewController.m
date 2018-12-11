@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <CCSDK/RequestData.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSNumber *num = @1;
+    
+    RequestData *data = [[RequestData alloc] initWithParameter:[PlayParameter new]];
     
     // Do any additional setup after loading the view, typically from a nib.
 }

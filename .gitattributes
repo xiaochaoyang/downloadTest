@@ -1,0 +1,6 @@
+ViewController.m merge=ours
+CCSDK.framework merge=ours
+DWDrmServer.framework merge=ours
+IJKMediaFramework.framework merge=ours
+socketio.html merge=ours
+WebRTC.framework merge=ours
